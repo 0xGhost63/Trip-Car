@@ -16,19 +16,19 @@ export function Signup() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (formData.password !== formData.confirmPassword) {
       alert("Passwords do not match!");
       return;
     }
 
     // Mock signup - in real app, this would create account
-    localStorage.setItem("tripcar_user", JSON.stringify({ 
+    localStorage.setItem("tripcar_user", JSON.stringify({
       email: formData.email,
       fullName: formData.fullName,
-      loggedIn: true 
+      loggedIn: true
     }));
-    navigate("/");
+    navigate("/home");
   };
 
   const handleChange = (field: string, value: string) => {
@@ -51,7 +51,7 @@ export function Signup() {
         {/* Signup Form */}
         <div className="bg-card border border-border rounded-lg p-8">
           <h2 className="text-2xl text-foreground mb-6">Sign Up</h2>
-          
+
           <form onSubmit={handleSubmit} className="space-y-5">
             {/* Full Name Input */}
             <div>
@@ -172,11 +172,11 @@ export function Signup() {
               />
               <label htmlFor="terms" className="text-muted-foreground text-sm">
                 I agree to the{" "}
-                <Link to="/terms" className="text-primary hover:text-primary/80">
+                <Link to="/home/terms" className="text-primary hover:text-primary/80">
                   Terms & Conditions
                 </Link>{" "}
                 and{" "}
-                <Link to="/privacy" className="text-primary hover:text-primary/80">
+                <Link to="/home/privacy" className="text-primary hover:text-primary/80">
                   Privacy Policy
                 </Link>
               </label>
@@ -204,7 +204,7 @@ export function Signup() {
           {/* Login Link */}
           <p className="text-center text-muted-foreground">
             Already have an account?{" "}
-            <Link to="/login" className="text-primary hover:text-primary/80 transition-colors">
+            <Link to="/" className="text-primary hover:text-primary/80 transition-colors">
               Login
             </Link>
           </p>
@@ -213,7 +213,7 @@ export function Signup() {
         {/* Guest Access */}
         <div className="text-center mt-4">
           <button
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/home")}
             className="text-muted-foreground text-sm hover:text-primary transition-colors"
           >
             Continue as Guest

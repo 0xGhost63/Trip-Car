@@ -12,7 +12,7 @@ export function Login() {
     e.preventDefault();
     // Mock login - in real app, this would validate credentials
     localStorage.setItem("tripcar_user", JSON.stringify({ email, loggedIn: true }));
-    navigate("/");
+    navigate("/home");
   };
 
   return (
@@ -31,7 +31,7 @@ export function Login() {
         {/* Login Form */}
         <div className="bg-card border border-border rounded-lg p-8">
           <h2 className="text-2xl text-foreground mb-6">Login</h2>
-          
+
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* Email Input */}
             <div>
@@ -123,7 +123,7 @@ export function Login() {
         {/* Guest Access */}
         <div className="text-center mt-4">
           <button
-            onClick={() => navigate("/")}
+            onClick={() => navigate("/home")}
             className="text-muted-foreground text-sm hover:text-primary transition-colors"
           >
             Continue as Guest

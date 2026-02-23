@@ -21,7 +21,7 @@ export function Blog() {
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
-            to={`/blog/${blogPosts[0].id}`}
+            to={`/home/blog/${blogPosts[0].id}`}
             className="grid grid-cols-1 lg:grid-cols-2 gap-8 bg-card border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all group"
           >
             <div className="relative h-[400px] lg:h-auto">
@@ -71,7 +71,7 @@ export function Blog() {
             {blogPosts.map((post) => (
               <Link
                 key={post.id}
-                to={`/blog/${post.id}`}
+                to={`/home/blog/${post.id}`}
                 className="bg-background border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all group"
               >
                 <div className="relative h-56 overflow-hidden">

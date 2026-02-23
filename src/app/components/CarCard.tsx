@@ -9,7 +9,7 @@ interface CarCardProps {
 export function CarCard({ car }: CarCardProps) {
   return (
     <Link
-      to={`/cars/${car.id}`}
+      to={`/home/cars/${car.id}`}
       className="bg-card border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all hover:shadow-lg hover:shadow-primary/10 group"
     >
       <div className="relative h-48 overflow-hidden">

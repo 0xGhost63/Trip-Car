@@ -10,7 +10,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <Link to="/" className="flex items-center gap-2 mb-4">
+            <Link to="/home" className="flex items-center gap-2 mb-4">
               <div className="bg-primary p-2 rounded-lg">
                 <Car className="w-5 h-5 text-primary-foreground" />
               </div>
@@ -42,22 +42,22 @@ export function Footer() {
             <h4 className="text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/about" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/cars" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/cars" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Our Fleet
                 </Link>
               </li>
               <li>
-                <Link to="/driver" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/driver" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Our Drivers
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/blog" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Blog
                 </Link>
               </li>
@@ -69,24 +69,24 @@ export function Footer() {
             <h4 className="text-foreground mb-4">Support</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/help" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/help" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Help Center
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/terms" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Terms of Service
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/home/privacy" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

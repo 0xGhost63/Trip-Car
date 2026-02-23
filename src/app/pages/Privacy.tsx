@@ -6,7 +6,7 @@ export function Privacy() {
     <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Link
-          to="/"
+          to="/home"
           className="text-primary hover:text-primary/80 transition-colors inline-flex items-center gap-2 mb-8"
         >
           <ArrowLeft className="w-4 h-4" />
@@ -139,7 +139,7 @@ export function Privacy() {
               <p className="text-muted-foreground leading-relaxed">
                 If you have questions about this privacy policy or our data practices, please contact us at
                 privacy@tripcar.com or visit our
-                <Link to="/contact" className="text-primary hover:text-primary/80 ml-1">
+                <Link to="/home/contact" className="text-primary hover:text-primary/80 ml-1">
                   Contact page
                 </Link>.
               </p>

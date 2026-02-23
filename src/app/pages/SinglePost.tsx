@@ -11,7 +11,7 @@ export function SinglePost() {
       <div className="bg-background min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h2 className="text-2xl text-foreground mb-4">Post not found</h2>
-          <Link to="/blog" className="text-primary hover:text-primary/80">
+          <Link to="/home/blog" className="text-primary hover:text-primary/80">
             Back to Blog
           </Link>
         </div>
@@ -27,7 +27,7 @@ export function SinglePost() {
       <section className="bg-card border-b border-border py-4">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
-            to="/blog"
+            to="/home/blog"
             className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
@@ -68,7 +68,7 @@ export function SinglePost() {
           {/* Article Content */}
           <div className="prose prose-invert max-w-none">
             <p className="text-lg text-muted-foreground mb-6">{post.excerpt}</p>
-            
+
             <div className="text-muted-foreground space-y-4 mb-8">
               <p>{post.content}</p>
               <p>
@@ -134,7 +134,7 @@ export function SinglePost() {
               {relatedPosts.map((relatedPost) => (
                 <Link
                   key={relatedPost.id}
-                  to={`/blog/${relatedPost.id}`}
+                  to={`/home/blog/${relatedPost.id}`}
                   className="bg-background border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all group"
                 >
                   <div className="relative h-56 overflow-hidden">
