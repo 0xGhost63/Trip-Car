@@ -19,12 +19,53 @@ import {
 import { cars } from "../data/mockData";
 import { ScrollReveal } from "../components/ScrollReveal";
 
+const VisaIcon = () => (
+    <svg viewBox="0 0 48 16" className="w-12 h-5" aria-label="Visa">
+        <rect width="48" height="16" rx="3" fill="#1A1F71" />
+        <text x="7" y="12.5" fontFamily="Arial, sans-serif" fontWeight="800" fontSize="11" fill="white" letterSpacing="1">VISA</text>
+    </svg>
+);
+
+const MasterCardIcon = () => (
+    <svg viewBox="0 0 38 24" className="w-10 h-6" aria-label="MasterCard">
+        <circle cx="14" cy="12" r="10" fill="#EB001B" />
+        <circle cx="24" cy="12" r="10" fill="#F79E1B" />
+        <path d="M19 5.27a10 10 0 0 1 0 13.46A10 10 0 0 1 19 5.27z" fill="#FF5F00" />
+    </svg>
+);
+
+const AmexIcon = () => (
+    <svg viewBox="0 0 48 16" className="w-12 h-5" aria-label="American Express">
+        <rect width="48" height="16" rx="3" fill="#2E77BC" />
+        <text x="5" y="12" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="white" letterSpacing="0.5">AMERICAN</text>
+        <text x="5" y="12" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="white" letterSpacing="0.5" dy="0">EXPRESS</text>
+        <text x="4" y="11.5" fontFamily="Arial, sans-serif" fontWeight="800" fontSize="8.5" fill="white">AMEX</text>
+    </svg>
+);
+
+const DebitCardIcon = () => (
+    <svg viewBox="0 0 38 24" className="w-10 h-6" fill="none" aria-label="Debit Card">
+        <rect width="38" height="24" rx="3" fill="#374151" />
+        <rect x="4" y="7" width="8" height="6" rx="1" fill="#F59E0B" />
+        <rect x="4" y="15" width="22" height="2" rx="1" fill="#6B7280" />
+        <rect x="4" y="19" width="14" height="2" rx="1" fill="#6B7280" />
+    </svg>
+);
+
+const PayPalIcon = () => (
+    <svg viewBox="0 0 48 16" className="w-12 h-5" aria-label="PayPal">
+        <rect width="48" height="16" rx="3" fill="#003087" />
+        <text x="6" y="11.5" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="#009CDE">Pay</text>
+        <text x="20" y="11.5" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="white">Pal</text>
+    </svg>
+);
+
 const PAYMENT_METHODS = [
-    { id: "visa", label: "Visa", icon: "💳" },
-    { id: "mastercard", label: "MasterCard", icon: "💳" },
-    { id: "amex", label: "American Express", icon: "💳" },
-    { id: "debit", label: "Debit Card", icon: "🏦" },
-    { id: "paypal", label: "PayPal", icon: "🅿️" },
+    { id: "visa", label: "Visa", Icon: VisaIcon },
+    { id: "mastercard", label: "MasterCard", Icon: MasterCardIcon },
+    { id: "amex", label: "American Express", Icon: AmexIcon },
+    { id: "debit", label: "Debit Card", Icon: DebitCardIcon },
+    { id: "paypal", label: "PayPal", Icon: PayPalIcon },
 ];
 
 const PICKUP_LOCATIONS = [
@@ -534,7 +575,7 @@ export function Booking() {
                                                             onChange={() => handleChange("paymentMethod", method.id)}
                                                             className="sr-only"
                                                         />
-                                                        <span className="text-xl">{method.icon}</span>
+                                                        <method.Icon />
                                                         <span
                                                             className={`text-sm font-medium ${selected ? "text-primary" : "text-foreground"
                                                                 }`}
