@@ -97,15 +97,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-muted-foreground text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary" />
-                <span>123 Luxury Avenue, Downtown, NY 10001</span>
+                <span>Lahore,Pakistan </span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground text-sm">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+923214444444</span>
               </li>
               <li className="flex items-center gap-2 text-muted-foreground text-sm">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>info@tripcar.com</span>
+                <span>sp25-bse-118@cuilahore.edu.pk</span>
               </li>
             </ul>
           </div>
