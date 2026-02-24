@@ -17,6 +17,7 @@ import { Terms } from "./pages/Terms";
 import { Privacy } from "./pages/Privacy";
 import { Booking } from "./pages/Booking";
 
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -39,6 +40,7 @@ export const router = createBrowserRouter([
       { path: "cars", Component: CarList },
       { path: "cars/:id", Component: CarDetails },
       { path: "cars/:id/book", Component: Booking },
+
       { path: "driver", Component: Driver },
       { path: "blog", Component: Blog },
       { path: "blog/:id", Component: SinglePost },

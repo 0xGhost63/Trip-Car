@@ -118,7 +118,35 @@ export const cars: Car[] = [
     image: "https://images.unsplash.com/photo-1764605206511-7a649d9df63b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHNlZGFuJTIwbHV4dXJ5JTIwY2FyfGVufDF8fHx8MTc3MTQ4Njg5OHww&ixlib=rb-4.1.0&q=80&w=1080",
     features: ["Executive Lounge Seating", "Gesture Control", "Night Vision", "Laser Lights", "WiFi Hotspot"],
     description: "The pinnacle of German engineering, combining performance, luxury, and innovative technology."
-  }
+  },
+  {
+    id: "7",
+    name: "BMW M5 CS",
+    brand: "BMW",
+    type: "Performance Sedan",
+    year: 2024,
+    seats: 4,
+    transmission: "Automatic",
+    fuel: "Petrol",
+    price: 780,
+    image: "https://images.unsplash.com/photo-1555215695-3004980ad54e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    features: ["M Power Engine", "Carbon Fiber Trim", "Sport Suspension", "Premium Leather", "Advanced Infotainment"],
+    description: "The ultimate performance sedan with a lightweight carbon fiber body and a 625 hp engine for exhilarating drives."
+  },
+  {
+    id: "8",
+    name: "Bentley Continental GT",
+    brand: "Bentley",
+    type: "Luxury Coupe",
+    year: 2024,
+    seats: 4,
+    transmission: "Automatic",
+    fuel: "Petrol",
+    price: 950,
+    image: "https://images.unsplash.com/photo-1563720223185-11003d516935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    features: ["W12 Engine", "Handcrafted Interior", "Dynamic Ride Control", "Advanced Safety", "Premium Audio"],
+    description: "A masterpiece of luxury and performance, offering a refined driving experience with a powerful W12 engine."
+  },
 ];
 
 export const drivers: Driver[] = [
@@ -128,7 +156,7 @@ export const drivers: Driver[] = [
     experience: 12,
     rating: 4.9,
     languages: ["English", "Spanish", "French"],
-    image: "https://images.unsplash.com/photo-1767022705480-1266a3865c03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkcml2ZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzE1NTQ0OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
     bio: "Professional chauffeur with over a decade of experience providing premium transportation services. Specialized in corporate clients and VIP events."
   },
   {
@@ -137,7 +165,7 @@ export const drivers: Driver[] = [
     experience: 8,
     rating: 4.8,
     languages: ["English", "Mandarin", "Cantonese"],
-    image: "https://images.unsplash.com/photo-1767022705480-1266a3865c03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkcml2ZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzE1NTQ0OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
     bio: "Certified professional driver with extensive knowledge of city routes and tourist destinations. Known for punctuality and excellent customer service."
   },
   {
@@ -146,7 +174,7 @@ export const drivers: Driver[] = [
     experience: 10,
     rating: 5.0,
     languages: ["English", "German", "Italian"],
-    image: "https://images.unsplash.com/photo-1767022705480-1266a3865c03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkcml2ZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NzE1NTQ0OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400",
     bio: "Executive driver specializing in luxury vehicle operations. Background in hospitality ensures a premium experience for all passengers."
   }
 ];

@@ -174,24 +174,43 @@ export function Homepage() {
               </p>
             </div>
           </ScrollReveal>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
             {[
-              { name: "John Smith", title: "Business Executive" },
-              { name: "Sarah Davis", title: "Travel Blogger" },
-              { name: "Mike Johnson", title: "Entrepreneur" },
+              {
+                name: "John Smith",
+                title: "Business Executive",
+                image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=100",
+                review: "Exceptional service and beautiful cars. The booking process was smooth and the driver was professional. Highly recommended!"
+              },
+              {
+                name: "Sarah Davis",
+                title: "Travel Blogger",
+                image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=100",
+                review: "Tripcar made my travel experience great. The car was spotless and the driver was punctual and professional throughout the trip."
+              },
+              {
+                name: "Mike Johnson",
+                title: "Entrepreneur",
+                image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=100",
+                review: "I rented the Ferrari for a weekend getaway and it was a dream come true. Top-notch quality and unbeatable customer support!"
+              },
             ].map((person, i) => (
-              <ScrollReveal key={i} delay={i * 100}>
-                <div className="bg-card border border-border rounded-lg p-6">
+              <ScrollReveal key={i} delay={i * 100} className="h-full">
+                <div className="bg-card border border-border rounded-lg p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-1 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 cursor-default">
                   <div className="flex gap-1 mb-4">
                     {[...Array(5)].map((_, j) => (
                       <Star key={j} className="w-5 h-5 fill-primary text-primary" />
                     ))}
                   </div>
-                  <p className="text-muted-foreground mb-4">
-                    "Exceptional service and beautiful cars. The booking process was smooth and the driver was professional. Highly recommended!"
+                  <p className="text-muted-foreground mb-4 flex-1">
+                    "{person.review}"
                   </p>
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-primary/20 rounded-full" />
+                    <img
+                      src={person.image}
+                      alt={person.name}
+                      className="w-10 h-10 rounded-full object-cover"
+                    />
                     <div>
                       <div className="text-foreground">{person.name}</div>
                       <div className="text-muted-foreground text-sm">{person.title}</div>

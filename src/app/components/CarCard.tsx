@@ -52,9 +52,12 @@ export function CarCard({ car }: CarCardProps) {
               ${car.price}
             </p>
           </div>
-          <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
-            Rent Now
-          </button>
+          <Link
+            to={`/home/cars/${car.id}/book`}
+            className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
+          >
+            Book Now
+          </Link>
         </div>
       </div>
     </Link>
