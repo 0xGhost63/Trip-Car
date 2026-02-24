@@ -37,9 +37,7 @@ const MasterCardIcon = () => (
 const AmexIcon = () => (
     <svg viewBox="0 0 48 16" className="w-12 h-5" aria-label="American Express">
         <rect width="48" height="16" rx="3" fill="#2E77BC" />
-        <text x="5" y="12" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="white" letterSpacing="0.5">AMERICAN</text>
-        <text x="5" y="12" fontFamily="Arial, sans-serif" fontWeight="700" fontSize="9" fill="white" letterSpacing="0.5" dy="0">EXPRESS</text>
-        <text x="4" y="11.5" fontFamily="Arial, sans-serif" fontWeight="800" fontSize="8.5" fill="white">AMEX</text>
+        <text x="24" y="11" fontFamily="Arial, sans-serif" fontWeight="800" fontSize="9" fill="white" textAnchor="middle" letterSpacing="1.5">AMEX</text>
     </svg>
 );
 
