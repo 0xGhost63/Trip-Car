@@ -59,7 +59,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Hybrid",
     price: 450,
-    image: "https://images.unsplash.com/photo-1764605206511-7a649d9df63b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMHNlZGFuJTIwbHV4dXJ5JTIwY2FyfGVufDF8fHx8MTc3MTQ4Njg5OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1610099610040-ab19f3a5ec35?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["Massage Seats", "Air Suspension", "Panoramic Roof", "Advanced Safety", "Premium Leather"],
     description: "The ultimate luxury sedan offering unparalleled comfort and cutting-edge technology for your journey."
   },
@@ -143,7 +143,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Petrol",
     price: 950,
-    image: "https://unsplash.com/photos/black-mercedes-benz-c-class-on-snow-covered-ground-cN9YEQ6U_rU",
+    image: "https://images.unsplash.com/photo-1610908374865-dae3c6392a2f?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["W12 Engine", "Handcrafted Interior", "Dynamic Ride Control", "Advanced Safety", "Premium Audio"],
     description: "A masterpiece of luxury and performance, offering a refined driving experience with a powerful W12 engine."
   },
