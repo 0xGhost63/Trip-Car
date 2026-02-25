@@ -73,7 +73,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Diesel",
     price: 550,
-    image: "https://images.unsplash.com/photo-1768965468579-50f5cbef70a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHN1diUyMGx1eHVyeSUyMHZlaGljbGV8ZW58MXx8fHwxNzcxNTczMzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://cdn.pixabay.com/photo/2020/02/12/06/51/range-4841828_960_720.jpg",
     features: ["4WD", "Off-Road Package", "Premium Audio", "Climate Control", "Towing Capacity"],
     description: "Powerful and luxurious SUV perfect for family trips or adventurous off-road experiences."
   },
@@ -101,7 +101,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Electric",
     price: 600,
-    image: "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://images.unsplash.com/photo-1716558964076-1abe07448abf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["Autopilot", "Fast Charging", "Gaming Console", "HEPA Filter", "Premium Sound"],
     description: "The fastest accelerating production car with zero emissions. Experience the future of driving today."
   },
@@ -143,7 +143,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Petrol",
     price: 950,
-    image: "https://images.unsplash.com/photo-1610908374865-dae3c6392a2f?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "https://images.unsplash.com/photo-1637950634698-2e27e3d6f3db?q=80&w=486&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["W12 Engine", "Handcrafted Interior", "Dynamic Ride Control", "Advanced Safety", "Premium Audio"],
     description: "A masterpiece of luxury and performance, offering a refined driving experience with a powerful W12 engine."
   },
@@ -207,7 +207,7 @@ export const blogPosts: BlogPost[] = [
     content: "As eco-friendly vehicles become more popular, many renters wonder whether to choose an electric or hybrid car. Each option has its advantages...",
     author: "Lisa Johnson",
     date: "2026-02-05",
-    image: "https://images.unsplash.com/photo-1694676518486-3cd13e7447d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGNhciUyMG1vZGVybnxlbnwxfHx8fDE3NzE1NDYwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1716558964076-1abe07448abf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     category: "Sustainability"
   }
 ];
