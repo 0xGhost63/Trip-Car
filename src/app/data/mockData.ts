@@ -45,7 +45,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Petrol",
     price: 850,
-    image: "https://images.unsplash.com/photo-1751336620135-21dd3a074b63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBzcG9ydHMlMjBjYXIlMjByZWR8ZW58MXx8fHwxNzcxNTczMzE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1597687154732-9b205f4f5c1c?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["GPS Navigation", "Bluetooth", "Premium Sound", "Sport Mode", "Carbon Fiber Interior"],
     description: "Experience the thrill of Italian engineering with the Ferrari 488 GTB. This supercar combines stunning performance with elegant design."
   },
@@ -87,7 +87,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Petrol",
     price: 720,
-    image: "https://images.unsplash.com/photo-1652089941546-ed7011d36420?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb252ZXJ0aWJsZSUyMGNhciUyMHN1bnNldHxlbnwxfHx8fDE3NzE1NzAzNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1593353798398-6024b7444bb6?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["Retractable Roof", "Sport Exhaust", "Adaptive Suspension", "Premium Interior", "Track Mode"],
     description: "Feel the wind in your hair with this iconic convertible sports car that delivers pure driving pleasure."
   },
@@ -101,7 +101,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Electric",
     price: 600,
-    image: "https://images.unsplash.com/photo-1694676518486-3cd13e7447d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGNhciUyMG1vZGVybnxlbnwxfHx8fDE3NzE1NDYwMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    image: "https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     features: ["Autopilot", "Fast Charging", "Gaming Console", "HEPA Filter", "Premium Sound"],
     description: "The fastest accelerating production car with zero emissions. Experience the future of driving today."
   },
