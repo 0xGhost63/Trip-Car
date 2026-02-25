@@ -143,7 +143,7 @@ export const cars: Car[] = [
     transmission: "Automatic",
     fuel: "Petrol",
     price: 950,
-    image: "https://images.unsplash.com/photo-1563720223185-11003d516935?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+    image: "https://unsplash.com/photos/black-mercedes-benz-c-class-on-snow-covered-ground-cN9YEQ6U_rU",
     features: ["W12 Engine", "Handcrafted Interior", "Dynamic Ride Control", "Advanced Safety", "Premium Audio"],
     description: "A masterpiece of luxury and performance, offering a refined driving experience with a powerful W12 engine."
   },
